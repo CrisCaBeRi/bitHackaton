@@ -1,0 +1,49 @@
+@import url("../../mainStyles.css");
+header, footer {
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+header > picture > img {
+  width: 5rem;
+}
+nav {
+  width: 20rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav > button {
+  font-family: var(--fontMType);
+  font-weight: var(--btnFont);
+  font-size: 1rem;
+  background-color: transparent;
+  color: var(--primaryColor);
+  border: none;
+  cursor: pointer;
+  transition: 0.2s all ease-in;
+}
+nav > button:hover {
+  transform: scale(1.2);
+  color: var(--secColor);
+}
+footer {
+  background-color: var(--secColor);
+  display: flex;
+  align-items: center;
+}
+footer > picture > img{
+  width: 5rem;
+}
+footer >ul {
+  list-style: none;
+  display: flex;
+  width: 8rem;
+  justify-content: space-between;
+}
+footer > ul>li>picture>img {
+  width: 2rem;
+}
+footer>p{
+  color: white;
+}

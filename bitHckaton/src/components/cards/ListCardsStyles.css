@@ -1,0 +1,11 @@
+@import url("../../mainStyles.css");
+
+:root {
+  --fontMType: "Montserrat", sans-serif;
+  --btnFont: 600;
+  --fontSType: "Crimson Pro", serif;
+  --scFont: 300;
+  --primaryColor: #5b9bd5;
+  --secColor: #cad647;
+  --thrColor: #d67772;
+}
